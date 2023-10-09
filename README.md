@@ -2,6 +2,8 @@
 
 Unity simulation of ArduRover boogie board boat. Uses the ArduPilot JSON API to interface with [ArduPilot SITL](https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html).
 
+This is a digital twin to a real rover I built at https://github.com/chrisdalke/boogie-board-rover.
+
 ![Sim screenshot](screenshot.JPG)
 
 ## Usage
