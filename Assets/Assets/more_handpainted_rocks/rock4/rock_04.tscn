@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://rock4/DAE/rock_04.dae" type="PackedScene" id=1]
+
+[node name="rock_04" instance=ExtResource( 1 )]
+
+
