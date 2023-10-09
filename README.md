@@ -27,6 +27,7 @@ To start the simulator:
 
 ## Limitations
 
+- The communications may fail using `127.0.0.1` as the JSON API destination, or as the QGC UDP server. I have had success by using my computer's LAN IP instead.
 - The sim is very sensitive to startup order, you might have to play around with timing of when you start the ardupilot script and Unity program to get it to work.
 - Accelerations are not reported; this does not seem to trip up ArduRover but might break other projects.
 - You may need to manually configure your ArduPilot SITL to use ArduRover and differential drive.
