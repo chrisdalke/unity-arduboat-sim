@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  ardupilot:
+    build: .
+    network_mode: host
+    environment:
+      RUN_SIM: "false"
